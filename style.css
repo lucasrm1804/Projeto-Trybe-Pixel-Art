@@ -1,3 +1,39 @@
 #title {
-    font-family: monospace;
+  font-family: monospace;
+}
+
+.color{
+display: inline-block;
+}
+
+#black{
+background-color: black;
+width: 50px;
+height: 50px;
+border: black;
+border-width: 1px;
+border-style: solid;}
+
+#purple{
+background-color: purple;
+width: 50px;
+height: 50px;
+border: black;
+border-width: 1px;
+border-style: solid;}
+
+#yellow{
+background-color: yellow;
+width: 50px;
+height: 50px;
+border: black;
+border-width: 1px;
+border-style: solid;}
+
+#blue{
+background-color: blue;
+width: 50px;
+height: 50px;
+border-width: 1px;
+border-style: solid;
 }
