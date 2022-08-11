@@ -1,3 +1,5 @@
+/* eslint-disable spaced-comment */
+/* eslint-disable editorconfig/editorconfig */
 // function creatPixel() {
 //   let board = document.getElementById('pixel-board');
 //   let boardSize = 5;
@@ -38,8 +40,7 @@ function selected() {
 selected();
 
 // requisito 8 - função para pintar os pixels
-//primeiro capturo todos os elementos do board
-
+// Para esse requisito eu adcionei uma função com addEventListener para cada cor da Paleta, e um window.onload para quando iniciar a pagina começar pintando com a cor preto
 const black = document.querySelector('#black')
 window.onload = function () {
   
@@ -161,3 +162,11 @@ console.log(teste)
 pintarPixel()
 })
 
+// requisito 9 - função de limpar o board
+
+const buttonClear = document.getElementById('clear-board');
+
+buttonClear.addEventListener('click', () => {
+  location.reload();
+  console.log('click');
+});
